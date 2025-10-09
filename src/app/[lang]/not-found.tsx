@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { AlertTriangle } from 'lucide-react';
 
 export default async function NotFound() {
-  const headersList = headers();
+  const headersList = await headers();
   const pathname = headersList.get('x-pathname') || '';
   const lang: Locale = (pathname.split('/')[1] as Locale) || i18n.defaultLocale;
   const dictionary = await getDictionary(lang);

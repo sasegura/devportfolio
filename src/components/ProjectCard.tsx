@@ -33,7 +33,7 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, liveLinkText, techStackText, viewMoreText }: ProjectCardProps) {
-  const isLongDescription = project.descriptionKey.length > 150; // Approximate length for 4 lines
+  const isLongDescription = (project as any).description?.length > 150 || project.descriptionKey?.length > 150; // Approximate length for 4 lines
 
   return (
     <motion.div
@@ -52,9 +52,9 @@ export function ProjectCard({ project, liveLinkText, techStackText, viewMoreText
           />
         </div>
         <CardHeader>
-          <CardTitle>{project.titleKey}</CardTitle>
+          <CardTitle>{(project as any).title || project.titleKey}</CardTitle>
           <CardDescription className="line-clamp-4">
-            {project.descriptionKey}
+            {(project as any).description || project.descriptionKey}
           </CardDescription>
            {isLongDescription && (
               <Dialog>
@@ -63,9 +63,9 @@ export function ProjectCard({ project, liveLinkText, techStackText, viewMoreText
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
                   <DialogHeader>
-                    <DialogTitle>{project.titleKey}</DialogTitle>
+                    <DialogTitle>{(project as any).title || project.titleKey}</DialogTitle>
                     <DialogDescription>
-                      {project.descriptionKey}
+                      {(project as any).description || project.descriptionKey}
                     </DialogDescription>
                   </DialogHeader>
                 </DialogContent>

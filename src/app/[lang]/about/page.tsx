@@ -20,7 +20,8 @@ const skills = [
   { name: 'SCRUM', icon: <Wind className="h-8 w-8 text-accent" /> },
 ];
 
-export default async function AboutPage({ params: { lang } }: { params: { lang: Locale } }) {
+export default async function AboutPage({ params }: { params: Promise<{ lang: Locale }> }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
   const { about } = dictionary;
 

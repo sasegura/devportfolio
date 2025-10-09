@@ -12,9 +12,10 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export async function generateMetadata({
   params,
 }: {
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }): Promise<Metadata> {
-  const dictionary = await getDictionary(params.lang);
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang);
   const { title, description, keywords } = dictionary.metadata;
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
 
@@ -28,9 +29,9 @@ export async function generateMetadata({
     openGraph: {
       title: title,
       description: description,
-      url: `${baseUrl}/${params.lang}`,
+      url: `${baseUrl}/${lang}`,
       siteName: 'DevPortfolio',
-      locale: params.lang,
+      locale: lang,
       type: 'website',
     },
     twitter: {
@@ -46,15 +47,16 @@ export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
-  params: { lang: Locale };
+  params: Promise<{ lang: Locale }>;
 }) {
+  const { lang } = await params;
   return (
-    <html lang={params.lang} className={inter.variable}>
+    <html lang={lang} className={inter.variable}>
       <head>
         <script
           type="application/ld+json"
@@ -74,9 +76,9 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-background font-body text-foreground antialiased">
-        <Header lang={params.lang} />
+        <Header lang={lang} />
         <main className="flex-1">{children}</main>
-        <Footer lang={params.lang} />
+        <Footer lang={lang} />
         <Toaster />
       </body>
     </html>

@@ -5,7 +5,8 @@ import { PageTransition } from '@/components/PageTransition';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail } from 'lucide-react';
 
-export default async function ContactPage({ params: { lang } }: { params: { lang: Locale } }) {
+export default async function ContactPage({ params }: { params: Promise<{ lang: Locale }> }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
   const { contact: pageText } = dictionary;
 

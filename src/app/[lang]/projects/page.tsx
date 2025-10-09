@@ -4,14 +4,15 @@ import { projectsData } from '@/lib/projectsData';
 import { ProjectCard } from '@/components/ProjectCard';
 import { PageTransition } from '@/components/PageTransition';
 
-export default async function ProjectsPage({ params: { lang } }: { params: { lang: Locale } }) {
+export default async function ProjectsPage({ params }: { params: Promise<{ lang: Locale }> }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
   const { projects: pageText } = dictionary;
   
   const translatedProjects = projectsData.map(p => ({
     ...p,
-    titleKey: dictionary.projects[p.titleKey].title,
-    descriptionKey: dictionary.projects[p.descriptionKey].description,
+    title: dictionary.projects[p.titleKey].title,
+    description: dictionary.projects[p.descriptionKey].description,
   }))
 
   return (

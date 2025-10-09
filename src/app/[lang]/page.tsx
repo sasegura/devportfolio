@@ -4,7 +4,8 @@ import type { Locale } from '@/i18n-config';
 import { Button } from '@/components/ui/button';
 import { PageTransition } from '@/components/PageTransition';
 
-export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
+export default async function Home({ params }: { params: Promise<{ lang: Locale }> }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang);
 
   return (
