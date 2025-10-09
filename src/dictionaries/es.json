@@ -25,40 +25,40 @@
     "educationTitle": "Formación Académica",
     "experience": [
       {
-        "role": "Frontend Developer",
-        "company": "BairesDev (Octubre 2023 – Actualidad)",
-        "period": "Comunidad de Madrid, España",
-        "description": "Desarrollo y Mantenimiento: Responsable de la aplicación web (Explora) para proveedores de materia prima de Inditex, asegurando un código limpio y mantenible. Colaboración y Diseño: Colaboración con equipos de diseño para transformar prototipos de alta fidelidad (utilizando Figma) en interfaces funcionales. Calidad de Código: Implementación de pruebas unitarias y de integración utilizando Jest y React Testing Library, aumentando la cobertura de pruebas al 90%."
+        "role": "BairesDev — Frontend Developer",
+        "company": "Octubre 2023 – Actualidad | Comunidad de Madrid, España",
+        "period": "",
+        "description": "Responsable de la aplicación web (Explora) para proveedores de materia prima de Inditex. Colaboración con equipos de diseño para transformar prototipos de Figma. Implementación de pruebas unitarias y de integración con Jest y React Testing Library."
       },
       {
-        "role": "Frontend Developer React",
-        "company": "atSistemas (Enero 2023 – Julio 2023)",
-        "period": "Madrid, España",
-        "description": "Desarrollo y mantenimiento de aplicaciones web personalizadas utilizando ReactJS, Redux y ReduxSaga. Optimización y refactorización de componentes previamente desarrollados para mejorar el rendimiento. Implementación de capas de datos en Google Tag Manager para el seguimiento de eventos de usuario en la aplicación Applus."
+        "role": "atSistemas — Frontend Developer React",
+        "company": "Enero 2023 – Julio 2023 | Madrid, España",
+        "period": "",
+        "description": "Desarrollo y mantenimiento de aplicaciones web con ReactJS, Redux y ReduxSaga. Optimización de componentes y implementación de capas de datos en Google Tag Manager."
       },
       {
-        "role": "Frontend-Developer React",
-        "company": "op2aim (Noviembre 2021 – Noviembre 2022)",
-        "period": "Madrid, España",
-        "description": "Desarrollo y mantenimiento de la aplicación Company utilizando React y Redux, garantizando una funcionalidad y calidad de código óptimas. Realización de pruebas de código y optimización/refactorización de componentes para mejorar el rendimiento y la experiencia del usuario. Colaboración en el diseño e implementación de nuevas funcionalidades."
+        "role": "op2aim — Frontend-Developer React",
+        "company": "Noviembre 2021 – Noviembre 2022 | Madrid, España",
+        "period": "",
+        "description": "Desarrollo y mantenimiento de la aplicación Company con React y Redux. Realización de pruebas de código y optimización de componentes."
       },
       {
-        "role": "Front-End developer",
-        "company": "GEOACTIO (Agosto 2020 – Noviembre 2021)",
-        "period": "Pamplona/Iruña, España",
-        "description": "Desarrollo y mantenimiento de aplicaciones web personalizadas para clientes en los sectores de transporte, energía y salud. Elaboración de código limpio y mantenible para cumplir con los requisitos funcionales y visuales. Revisión y aprobación del código desarrollado por el equipo."
+        "role": "GEOACTIO — Front-End developer",
+        "company": "Agosto 2020 – Noviembre 2021 | Pamplona/Iruña, España",
+        "period": "",
+        "description": "Desarrollo de aplicaciones web para clientes en transporte, energía y salud. Elaboración de código limpio y mantenible."
       },
       {
         "role": "Particular (Autónomo)",
-        "company": "Septiembre 2014 – Agosto 2016",
-        "period": "Camaguey, Cuba",
-        "description": "Desarrollo de páginas web para casas de alquiler (usando WordPress, Symfony, PHP, HTML, CSS y JavaScript). Optimización del rendimiento de los sitios web e implementación de interfaces amigables para mejorar la experiencia del usuario. Aumento de la visibilidad online y las reservas mediante diseño web efectivo y estrategias SEO."
+        "company": "Septiembre 2014 – Agosto 2016 | Camaguey, Cuba",
+        "period": "",
+        "description": "Desarrollo de páginas web para casas de alquiler (WordPress, Symfony, PHP, HTML, CSS, JavaScript). Optimización de rendimiento y SEO."
       },
       {
         "role": "Proyecto Académico Relevante (Máster)",
         "company": "Universidad de Camagüey",
         "period": "Camagüey, Cuba",
-        "description": "Desarrollo de un sistema experto para el diseño de registros de alcantarillado, utilizando ReactJS, Java y MySQL. Implementación de la metodología SCRUM y colaboración en la integración de Drools e Hibernate."
+        "description": "Desarrollo de un sistema experto para el diseño de registros de alcantarillado, utilizando ReactJS, Java, MySQL y SCRUM."
       }
     ],
     "education": [

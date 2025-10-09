@@ -1,22 +1,23 @@
-import { Code, Database, Smartphone, Cloud, PenTool, GitMerge, Settings, GraduationCap } from 'lucide-react';
+import { Code, Database, Smartphone, Cloud, PenTool, GitMerge, Settings, GraduationCap, TestTube2, Workflow, Tags, DatabaseZap, Wind } from 'lucide-react';
 import { getDictionary } from '@/lib/dictionary';
 import type { Locale } from '@/i18n-config';
 import { PageTransition } from '@/components/PageTransition';
 import { Timeline } from '@/components/Timeline';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
 import Image from 'next/image';
 
 const skills = [
-  { name: 'React', icon: <Code className="h-8 w-8 text-accent" /> },
-  { name: 'Next.js', icon: <Code className="h-8 w-8 text-accent" /> },
-  { name: 'Node.js', icon: <Database className="h-8 w-8 text-accent" /> },
-  { name: 'TypeScript', icon: <Code className="h-8 w-8 text-accent" /> },
-  { name: 'React Native', icon: <Smartphone className="h-8 w-8 text-accent" /> },
-  { name: 'GraphQL', icon: <GitMerge className="h-8 w-8 text-accent" /> },
-  { name: 'Docker', icon: <Cloud className="h-8 w-8 text-accent" /> },
-  { name: 'Figma', icon: <PenTool className="h-8 w-8 text-accent" /> },
-  { name: 'CI/CD', icon: <Settings className="h-8 w-8 text-accent" /> }
+  { name: 'JavaScript', icon: <Code className="h-8 w-8 text-accent" /> },
+  { name: 'React/Redux', icon: <Code className="h-8 w-8 text-accent" /> },
+  { name: 'Front-End Design', icon: <PenTool className="h-8 w-8 text-accent" /> },
+  { name: 'Front-end Engineering', icon: <Settings className="h-8 w-8 text-accent" /> },
+  { name: 'Jest & RTL', icon: <TestTube2 className="h-8 w-8 text-accent" /> },
+  { name: 'ReduxSaga', icon: <Workflow className="h-8 w-8 text-accent" /> },
+  { name 'Figma', icon: <PenTool className="h-8 w-8 text-accent" /> },
+  { name: 'Google Tag Manager', icon: <Tags className="h-8 w-8 text-accent" /> },
+  { name: 'PHP/WordPress', icon: <Code className="h-8 w-8 text-accent" /> },
+  { name: 'Java & MySQL', icon: <DatabaseZap className="h-8 w-8 text-accent" /> },
+  { name: 'SCRUM', icon: <Wind className="h-8 w-8 text-accent" /> },
 ];
 
 export default async function AboutPage({ params: { lang } }: { params: { lang: Locale } }) {
