@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "DevPortfolio | Your Name - Software Developer",
+    "title": "DevPortfolio | Sergio Antonio Segura Fernández - Software Developer",
     "description": "A personal portfolio showcasing projects and skills in web development.",
     "keywords": "portfolio, software developer, next.js, react, web development"
   },
@@ -90,6 +90,10 @@
     "project-fintrack": {
       "title": "FinTrack - Personal Finance Dashboard",
       "description": "FinTrack is a modern web application designed to help users comprehensively track their personal finances. The main goal of the application is to enable income and expense management, visualization of spending habits through interactive charts, and a clear review of recent transaction history. This project represents a comprehensive solution for personal financial management, focusing on a smooth user experience and responsive design."
+    },
+    "project-globalroamer": {
+      "title": "GlobalRoamer: AI-Powered Destination Guide",
+      "description": "GlobalRoamer is a web application specifically created to help digital nomads. The key functionality of the project is to assist users in finding their next ideal destination based on their personal preferences. This guidance is achieved using an Artificial Intelligence assistant."
     },
     "project-2": {
       "title": "Project Beta",

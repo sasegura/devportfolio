@@ -7,6 +7,12 @@
       "imageHint": "finance dashboard"
     },
     {
+      "id": "project-globalroamer",
+      "description": "Screenshot of the GlobalRoamer application.",
+      "imageUrl": "/globalroamer.png",
+      "imageHint": "AI travel"
+    },
+    {
       "id": "project-2",
       "description": "Mobile application interface showing a user profile screen.",
       "imageUrl": "https://picsum.photos/seed/2/1200/800",
