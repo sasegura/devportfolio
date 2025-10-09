@@ -22,18 +22,63 @@
     "bio": "I am a passionate software developer with a knack for creating elegant solutions in the least amount of time. With a background in computer science and several years of hands-on experience, I have honed my skills in front-end and back-end development, specializing in the React ecosystem and modern web technologies. I thrive in collaborative environments and am always eager to learn and take on new challenges.",
     "skillsTitle": "My Skills",
     "experienceTitle": "Work Experience",
+    "educationTitle": "Education",
     "experience": [
       {
-        "role": "Senior Frontend Developer",
-        "company": "Tech Solutions Inc.",
-        "period": "2020 - Present",
-        "description": "Led the development of a new client-facing dashboard using Next.js, resulting in a 30% increase in user engagement. Mentored junior developers and established code quality standards."
+        "role": "BairesDev — Frontend Developer",
+        "company": "Oct 2023 – Present",
+        "period": "Madrid, Spain",
+        "description": "Responsible for the web application (Explora) for raw material suppliers of Inditex, ensuring clean and maintainable code. Collaboration with design teams to transform high-fidelity prototypes (using Figma) into functional interfaces. Implementation of unit and integration tests using Jest and React Testing Library, increasing test coverage to 90%."
       },
       {
-        "role": "Software Engineer",
-        "company": "Web Innovators",
-        "period": "2018 - 2020",
-        "description": "Developed and maintained features for a large-scale e-commerce platform using React and Redux. Collaborated with designers and product managers to deliver high-quality user experiences."
+        "role": "atSistemas — Frontend Developer React",
+        "company": "Jan 2023 – Jul 2023",
+        "period": "Madrid, Spain",
+        "description": "Development and maintenance of custom web applications using ReactJS, Redux, and ReduxSaga. Optimization and refactoring of previously developed components to improve performance. Implementation of data layers in Google Tag Manager for tracking user events in the Applus application."
+      },
+      {
+        "role": "op2aim — Frontend-Developer React",
+        "company": "Nov 2021 – Nov 2022",
+        "period": "Madrid, Spain",
+        "description": "Development and maintenance of the Company application using React and Redux, ensuring optimal functionality and code quality. Code testing and component optimization/refactoring to improve performance and user experience. Collaboration in the design and implementation of new functionalities."
+      },
+      {
+        "role": "GEOACTIO — Front-End developer",
+        "company": "Aug 2020 – Nov 2021",
+        "period": "Pamplona/Iruña, Spain",
+        "description": "Development and maintenance of custom web applications for clients in the transport, energy, and health sectors. Writing clean and maintainable code to meet functional and visual requirements. Review and approval of code developed by the team."
+      },
+      {
+        "role": "Freelance",
+        "company": "Sep 2014 – Aug 2016",
+        "period": "Camaguey, Cuba",
+        "description": "Development of websites for rental houses (using WordPress, Symfony, PHP, HTML, CSS, and JavaScript). Optimization of website performance and implementation of user-friendly interfaces to improve user experience. Increased online visibility and bookings through effective web design and SEO strategies."
+      },
+      {
+        "role": "Relevant Academic Project (Master's)",
+        "company": "University of Camagüey",
+        "period": "Camagüey, Cuba",
+        "description": "Development of an expert system for the design of sewer registries in Camagüey, Cuba, using ReactJS, Java, and MySQL. Implementation of the SCRUM methodology and collaboration in the integration of Drools and Hibernate."
+      }
+    ],
+    "education": [
+      {
+        "role": "Master in Business Administration - MBA",
+        "company": "EUDE Business School",
+        "period": "Jun 2020 – Jul 2021",
+        "description": ""
+      },
+      {
+        "role": "Master in Applied Informatics",
+        "company": "University of Camaguey",
+        "period": "2016 – 2018",
+        "description": ""
+      },
+      {
+        "role": "Engineer in Computer Science",
+        "company": "University of the Informatic Sciences",
+        "period": "2007 – 2012",
+        "description": ""
       }
     ]
   },
