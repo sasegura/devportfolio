@@ -74,5 +74,3 @@ export const projectsData: Project[] = [
     link: '#',
   },
 ];
-
-    

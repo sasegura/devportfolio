@@ -86,7 +86,7 @@
     "title": "My Projects",
     "intro": "Here are some of the projects I've worked on. Each one represents a unique challenge and a learning opportunity.",
     "techStack": "Tech Stack:",
-    "liveLink": "View Live",
+    "liveLink": "View Code",
     "viewMore": "View more...",
     "project-fintrack": {
       "title": "FinTrack - Personal Finance Dashboard",
@@ -148,3 +148,5 @@
     "copy": "All rights reserved."
   }
 }
+
+    

@@ -86,7 +86,7 @@
     "title": "Mis Proyectos",
     "intro": "Estos son algunos de los proyectos en los que he trabajado. Cada uno representa un desafío único y una oportunidad de aprendizaje.",
     "techStack": "Tecnologías:",
-    "liveLink": "Ver en Vivo",
+    "liveLink": "Ver Codigo",
     "viewMore": "Ver más...",
     "project-fintrack": {
       "title": "FinTrack - Panel de Finanzas Personales",
@@ -148,3 +148,5 @@
     "copy": "Todos los derechos reservados."
   }
 }
+
+    
