@@ -1,14 +1,13 @@
 import Link from 'next/link';
 import { getDictionary } from '@/lib/dictionary';
-import { headers } from 'next/headers';
 import { i18n, type Locale } from '@/i18n-config';
 import { Button } from '@/components/ui/button';
 import { AlertTriangle } from 'lucide-react';
 
 export default async function NotFound() {
-  const headersList = await headers();
-  const pathname = headersList.get('x-pathname') || '';
-  const lang: Locale = (pathname.split('/')[1] as Locale) || i18n.defaultLocale;
+  // For static export, we'll use the default locale
+  // In a real deployment, you might want to handle this differently
+  const lang: Locale = i18n.defaultLocale;
   const dictionary = await getDictionary(lang);
   const { notFound } = dictionary;
 

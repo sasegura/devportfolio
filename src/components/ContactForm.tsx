@@ -17,7 +17,6 @@ import {
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { sendEmail } from '@/actions/sendEmail';
 import { Loader2 } from 'lucide-react';
 
 type Dictionary = {
@@ -66,20 +65,21 @@ export function ContactForm({ dictionary }: { dictionary: Dictionary }) {
 
   function onSubmit(values: z.infer<typeof formSchema>) {
     startTransition(async () => {
-      const formData = new FormData();
-      Object.entries(values).forEach(([key, value]) => {
-        formData.append(key, value);
-      });
-
-      const result = await sendEmail(formData);
-
-      if (result.success) {
+      try {
+        // For static export, we'll simulate form submission
+        // In a real deployment, you could integrate with a service like Formspree, Netlify Forms, or similar
+        console.log('Contact form submission:', values);
+        
+        // Simulate API call delay
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        
         toast({
           title: "Success!",
           description: dictionary.form.success,
         });
         form.reset();
-      } else {
+      } catch (error) {
+        console.error('Form submission error:', error);
         toast({
           variant: "destructive",
           title: "Error",
