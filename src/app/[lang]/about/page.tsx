@@ -1,4 +1,4 @@
-import { Code, Database, Smartphone, Cloud, PenTool, GitMerge, Settings } from 'lucide-react';
+import { Code, Database, Smartphone, Cloud, PenTool, GitMerge, Settings, GraduationCap } from 'lucide-react';
 import { getDictionary } from '@/lib/dictionary';
 import type { Locale } from '@/i18n-config';
 import { PageTransition } from '@/components/PageTransition';
@@ -70,6 +70,13 @@ export default async function AboutPage({ params: { lang } }: { params: { lang: 
           <h2 className="text-3xl font-bold text-center text-foreground">{about.experienceTitle}</h2>
           <div className="mt-8 max-w-3xl mx-auto">
             <Timeline items={about.experience} />
+          </div>
+        </section>
+
+        <section className="mt-16">
+          <h2 className="text-3xl font-bold text-center text-foreground">{about.educationTitle}</h2>
+          <div className="mt-8 max-w-3xl mx-auto">
+            <Timeline items={about.education} icon={<GraduationCap className="h-3 w-3 text-primary-foreground" />} />
           </div>
         </section>
       </div>

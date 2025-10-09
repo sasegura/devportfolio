@@ -22,18 +22,63 @@
     "bio": "Soy un apasionado desarrollador de software con un don para crear soluciones elegantes en el menor tiempo posible. Con formación en informática y varios años de experiencia práctica, he perfeccionado mis habilidades en desarrollo front-end y back-end, especializándome en el ecosistema de React y tecnologías web modernas. Me desenvuelvo en entornos colaborativos y siempre estoy ansioso por aprender y asumir nuevos desafíos.",
     "skillsTitle": "Mis Habilidades",
     "experienceTitle": "Experiencia Laboral",
+    "educationTitle": "Formación Académica",
     "experience": [
       {
-        "role": "Desarrollador Frontend Senior",
-        "company": "Tech Solutions Inc.",
-        "period": "2020 - Presente",
-        "description": "Lideré el desarrollo de un nuevo panel de control para clientes usando Next.js, lo que resultó en un aumento del 30% en la participación del usuario. Fui mentor de desarrolladores junior y establecí estándares de calidad de código."
+        "role": "Frontend Developer",
+        "company": "BairesDev (Octubre 2023 – Actualidad)",
+        "period": "Comunidad de Madrid, España",
+        "description": "Desarrollo y Mantenimiento: Responsable de la aplicación web (Explora) para proveedores de materia prima de Inditex, asegurando un código limpio y mantenible. Colaboración y Diseño: Colaboración con equipos de diseño para transformar prototipos de alta fidelidad (utilizando Figma) en interfaces funcionales. Calidad de Código: Implementación de pruebas unitarias y de integración utilizando Jest y React Testing Library, aumentando la cobertura de pruebas al 90%."
       },
       {
-        "role": "Ingeniero de Software",
-        "company": "Web Innovators",
-        "period": "2018 - 2020",
-        "description": "Desarrollé y mantuve funcionalidades para una plataforma de comercio electrónico a gran escala utilizando React y Redux. Colaboré con diseñadores y gerentes de producto para ofrecer experiencias de usuario de alta calidad."
+        "role": "Frontend Developer React",
+        "company": "atSistemas (Enero 2023 – Julio 2023)",
+        "period": "Madrid, España",
+        "description": "Desarrollo y mantenimiento de aplicaciones web personalizadas utilizando ReactJS, Redux y ReduxSaga. Optimización y refactorización de componentes previamente desarrollados para mejorar el rendimiento. Implementación de capas de datos en Google Tag Manager para el seguimiento de eventos de usuario en la aplicación Applus."
+      },
+      {
+        "role": "Frontend-Developer React",
+        "company": "op2aim (Noviembre 2021 – Noviembre 2022)",
+        "period": "Madrid, España",
+        "description": "Desarrollo y mantenimiento de la aplicación Company utilizando React y Redux, garantizando una funcionalidad y calidad de código óptimas. Realización de pruebas de código y optimización/refactorización de componentes para mejorar el rendimiento y la experiencia del usuario. Colaboración en el diseño e implementación de nuevas funcionalidades."
+      },
+      {
+        "role": "Front-End developer",
+        "company": "GEOACTIO (Agosto 2020 – Noviembre 2021)",
+        "period": "Pamplona/Iruña, España",
+        "description": "Desarrollo y mantenimiento de aplicaciones web personalizadas para clientes en los sectores de transporte, energía y salud. Elaboración de código limpio y mantenible para cumplir con los requisitos funcionales y visuales. Revisión y aprobación del código desarrollado por el equipo."
+      },
+      {
+        "role": "Particular (Autónomo)",
+        "company": "Septiembre 2014 – Agosto 2016",
+        "period": "Camaguey, Cuba",
+        "description": "Desarrollo de páginas web para casas de alquiler (usando WordPress, Symfony, PHP, HTML, CSS y JavaScript). Optimización del rendimiento de los sitios web e implementación de interfaces amigables para mejorar la experiencia del usuario. Aumento de la visibilidad online y las reservas mediante diseño web efectivo y estrategias SEO."
+      },
+      {
+        "role": "Proyecto Académico Relevante (Máster)",
+        "company": "Universidad de Camagüey",
+        "period": "Camagüey, Cuba",
+        "description": "Desarrollo de un sistema experto para el diseño de registros de alcantarillado, utilizando ReactJS, Java y MySQL. Implementación de la metodología SCRUM y colaboración en la integración de Drools e Hibernate."
+      }
+    ],
+    "education": [
+      {
+        "role": "Máster en Administración y Gestión de Empresas - MBA",
+        "company": "EUDE Business School",
+        "period": "Junio 2020 – Julio 2021",
+        "description": ""
+      },
+      {
+        "role": "Máster en Informática Aplicada",
+        "company": "University of Camaguey",
+        "period": "2016 – 2018",
+        "description": ""
+      },
+      {
+        "role": "Ingeniero en Ciencias Informáticas",
+        "company": "Universidad de las Ciencias Informáticas",
+        "period": "2007 – 2012",
+        "description": ""
       }
     ]
   },
