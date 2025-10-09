@@ -12,14 +12,14 @@
   },
   "homepage": {
     "greeting": "Hola, soy",
-    "name": "Tu Nombre",
-    "role": "Desarrollador de Software",
+    "name": "Sergio Antonio Segura Fernández",
+    "role": "Frontend Developer | Diseño y Arquitectura Front-End",
     "intro": "Construyo experiencias web modernas, responsivas y atractivas. Creemos algo increíble juntos.",
     "cta": "Ver Mi Trabajo"
   },
   "about": {
     "title": "Sobre Mí",
-    "bio": "Soy un apasionado desarrollador de software con un don para crear soluciones elegantes en el menor tiempo posible. Con formación en informática y varios años de experiencia práctica, he perfeccionado mis habilidades en desarrollo front-end y back-end, especializándome en el ecosistema de React y tecnologías web modernas. Me desenvuelvo en entornos colaborativos y siempre estoy ansioso por aprender y asumir nuevos desafíos.",
+    "bio": "Mi rol actual como Frontend Developer en BairesDev fusiona la destreza técnica con la fineza estética, especializándome en la creación de interfaces que son tanto funcionales como visualmente atractivas. Mis competencias clave incluyen React, Redux y la ingeniería front-end, priorizando siempre la optimización del rendimiento y la elaboración de código mantenible. Me enfoco en la mejora continua de las aplicaciones web para satisfacer las necesidades dinámicas de los usuarios y el panorama empresarial. Un logro destacado es la colaboración con equipos de diseño y la implementación de rigurosos protocolos de prueba para la robusta aplicación Explora de Inditex, resultando en una cobertura de pruebas que se elevó hasta el 90%.",
     "skillsTitle": "Mis Habilidades",
     "experienceTitle": "Experiencia Laboral",
     "educationTitle": "Formación Académica",

@@ -12,14 +12,14 @@
   },
   "homepage": {
     "greeting": "Hello, I'm",
-    "name": "Your Name",
-    "role": "Software Developer",
+    "name": "Sergio Antonio Segura Fernández",
+    "role": "Frontend Developer | Front-End Design & Architecture",
     "intro": "I build modern, responsive, and engaging web experiences. Let's create something amazing together.",
     "cta": "View My Work"
   },
   "about": {
     "title": "About Me",
-    "bio": "I am a passionate software developer with a knack for creating elegant solutions in the least amount of time. With a background in computer science and several years of hands-on experience, I have honed my skills in front-end and back-end development, specializing in the React ecosystem and modern web technologies. I thrive in collaborative environments and am always eager to learn and take on new challenges.",
+    "bio": "My current role as a Frontend Developer at BairesDev merges technical skill with aesthetic finesse, specializing in creating interfaces that are both functional and visually appealing. My key competencies include React, Redux, and front-end engineering, always prioritizing performance optimization and crafting maintainable code. I focus on the continuous improvement of web applications to meet the dynamic needs of users and the business landscape. A notable achievement is the collaboration with design teams and the implementation of rigorous testing protocols for Inditex's robust Explora application, resulting in test coverage that rose to 90%.",
     "skillsTitle": "My Skills",
     "experienceTitle": "Work Experience",
     "educationTitle": "Education",
