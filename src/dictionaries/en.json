@@ -95,6 +95,10 @@
       "title": "GlobalRoamer: AI-Powered Destination Guide",
       "description": "GlobalRoamer is a web application specifically created to help digital nomads. The key functionality of the project is to assist users in finding their next ideal destination based on their personal preferences. This guidance is achieved using an Artificial Intelligence assistant."
     },
+    "project-taskzen": {
+      "title": "TaskZen - Kanban-Style Task Management",
+      "description": "TaskZen is a modern and intuitive task management application. Its goal is to provide an efficient tool with a clean interface. It features a Kanban board, drag-and-drop functionality, and AI-powered insights and recommendations using Genkit."
+    },
     "project-2": {
       "title": "Project Beta",
       "description": "A mobile-first social networking app designed to connect like-minded individuals."

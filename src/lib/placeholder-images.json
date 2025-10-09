@@ -13,10 +13,10 @@
       "imageHint": "AI travel"
     },
     {
-      "id": "project-2",
-      "description": "Mobile application interface showing a user profile screen.",
-      "imageUrl": "https://picsum.photos/seed/2/1200/800",
-      "imageHint": "mobile app"
+      "id": "project-taskzen",
+      "description": "Screenshot of the TaskZen application dashboard.",
+      "imageUrl": "/taskzen.png",
+      "imageHint": "kanban board"
     },
     {
       "id": "project-3",

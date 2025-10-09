@@ -95,6 +95,10 @@
       "title": "GlobalRoamer: Guía de Destinos con IA",
       "description": "GlobalRoamer es una aplicación web creada específicamente para ayudar a los nómadas digitales. La funcionalidad clave del proyecto es asistir a los usuarios a encontrar su próximo destino ideal basándose en sus preferencias personales. Esta guía se logra utilizando un asistente de Inteligencia Artificial."
     },
+    "project-taskzen": {
+      "title": "TaskZen - Gestión de Tareas Estilo Kanban",
+      "description": "TaskZen es una aplicación de gestión de tareas moderna e intuitiva. Su objetivo es proporcionar una herramienta eficiente con una interfaz limpia. Cuenta con un tablero Kanban, funcionalidad de arrastrar y soltar y conocimientos y recomendaciones basados en IA mediante Genkit."
+    },
     "project-2": {
       "title": "Proyecto Beta",
       "description": "Una aplicación de red social 'mobile-first' diseñada para conectar a personas con ideas afines."
