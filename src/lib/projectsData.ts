@@ -56,21 +56,5 @@ export const projectsData: Project[] = [
     image: getImage('project-chatterbox'),
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'ShadCN UI', 'Genkit', 'Firebase'],
     link: 'https://github.com/sasegura/chatterbox',
-  },
-  {
-    id: '3',
-    titleKey: 'project-3',
-    descriptionKey: 'project-3',
-    image: getImage('project-3'),
-    techStack: ['D3.js', 'React', 'Node.js'],
-    link: '#',
-  },
-  {
-    id: '4',
-    titleKey: 'project-4',
-    descriptionKey: 'project-4',
-    image: getImage('project-4'),
-    techStack: ['Shopify', 'Liquid', 'JavaScript', 'CSS'],
-    link: '#',
-  },
+  },  
 ];
