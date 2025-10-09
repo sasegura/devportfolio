@@ -99,6 +99,10 @@
       "title": "TaskZen - Kanban-Style Task Management",
       "description": "TaskZen is a modern and intuitive task management application. Its goal is to provide an efficient tool with a clean interface. It features a Kanban board, drag-and-drop functionality, and AI-powered insights and recommendations using Genkit."
     },
+    "project-chatterbox": {
+      "title": "Chatterbox: Real-Time AI Chat Application",
+      "description": "Chatterbox is a real-time chat application built using Next.js in Firebase Studio. The project focuses on providing a modern and responsive interface that allows users to communicate with their contacts efficiently. Its most outstanding feature is the integration of AI-powered response suggestions."
+    },
     "project-2": {
       "title": "Project Beta",
       "description": "A mobile-first social networking app designed to connect like-minded individuals."
@@ -143,3 +147,5 @@
     "copy": "All rights reserved."
   }
 }
+
+    

@@ -19,6 +19,12 @@
       "imageHint": "kanban board"
     },
     {
+      "id": "project-chatterbox",
+      "description": "Screenshot of the Chatterbox real-time chat application.",
+      "imageUrl": "/chatterbox.png",
+      "imageHint": "chat application"
+    },
+    {
       "id": "project-3",
       "description": "Data visualization chart from an analytics platform.",
       "imageUrl": "https://picsum.photos/seed/3/1200/800",
