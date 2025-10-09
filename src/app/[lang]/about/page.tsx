@@ -36,14 +36,15 @@ export default async function AboutPage({ params: { lang } }: { params: { lang: 
         <section className="mt-12">
           <Card className="overflow-hidden">
             <div className="md:flex">
-              <div className="md:w-1/3">
+              <div className="md:w-1/3 flex items-center justify-center bg-muted/30">
                 <Image
                   src="/profile.jpg"
                   alt="Developer Portrait"
                   width={800}
                   height={800}
-                  className="h-full w-full object-cover"
+                  className="h-auto w-full object-contain"
                   data-ai-hint="developer portrait"
+                  priority
                 />
               </div>
               <div className="md:w-2/3 p-8 flex flex-col justify-center">
