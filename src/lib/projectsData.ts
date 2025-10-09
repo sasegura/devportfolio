@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     descriptionKey: 'project-fintrack',
     image: getImage('project-fintrack'),
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Recharts', 'React Hook Form', 'Zod', 'Genkit'],
-    link: '#',
+    link: 'https://github.com/sasegura/FinTrack',
   },
   {
     id: '2',
@@ -39,7 +39,7 @@ export const projectsData: Project[] = [
     descriptionKey: 'project-globalroamer',
     image: getImage('project-globalroamer'),
     techStack: ['Next.js', 'TypeScript', 'Genkit', 'Google Gemini', 'Tailwind CSS', 'ShadCN UI', 'Vitest'],
-    link: '#',
+    link: 'https://github.com/sasegura/GlobalRoamer',
   },
   {
     id: '5',
@@ -47,7 +47,7 @@ export const projectsData: Project[] = [
     descriptionKey: 'project-taskzen',
     image: getImage('project-taskzen'),
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'ShadCN UI', 'Genkit', 'React Hook Form', 'Zod', 'Jest'],
-    link: '#',
+    link: 'https://github.com/sasegura/TaskZen',
   },
   {
     id: '6',
@@ -55,7 +55,7 @@ export const projectsData: Project[] = [
     descriptionKey: 'project-chatterbox',
     image: getImage('project-chatterbox'),
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'ShadCN UI', 'Genkit', 'Firebase'],
-    link: '#',
+    link: 'https://github.com/sasegura/chatterbox',
   },
   {
     id: '3',
