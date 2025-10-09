@@ -33,6 +33,7 @@ export default async function ProjectsPage({ params: { lang } }: { params: { lan
                 project={project} 
                 liveLinkText={pageText.liveLink}
                 techStackText={pageText.techStack}
+                viewMoreText={pageText.viewMore}
             />
           ))}
         </section>

@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 import {
   Card,
@@ -12,18 +13,26 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import type { Project } from '@/lib/projectsData';
 
 interface ProjectCardProps {
   project: Project;
   liveLinkText: string;
   techStackText: string;
+  viewMoreText: string;
 }
 
-export function ProjectCard({ project, liveLinkText, techStackText }: ProjectCardProps) {
+export function ProjectCard({ project, liveLinkText, techStackText, viewMoreText }: ProjectCardProps) {
   const isLongDescription = project.descriptionKey.length > 150; // Approximate length for 4 lines
 
   return (
@@ -44,20 +53,24 @@ export function ProjectCard({ project, liveLinkText, techStackText }: ProjectCar
         </div>
         <CardHeader>
           <CardTitle>{project.titleKey}</CardTitle>
-            <TooltipProvider>
-              <Tooltip delayDuration={300}>
-                <TooltipTrigger asChild>
-                  <CardDescription className="line-clamp-4 cursor-default">
-                    {project.descriptionKey}
-                  </CardDescription>
-                </TooltipTrigger>
-                {isLongDescription && (
-                  <TooltipContent className="max-w-xs sm:max-w-sm md:max-w-md">
-                    <p>{project.descriptionKey}</p>
-                  </TooltipContent>
-                )}
-              </Tooltip>
-            </TooltipProvider>
+          <CardDescription className="line-clamp-4">
+            {project.descriptionKey}
+          </CardDescription>
+           {isLongDescription && (
+              <Dialog>
+                <DialogTrigger asChild>
+                  <Button variant="link" className="text-accent p-0 h-auto justify-start">{viewMoreText}</Button>
+                </DialogTrigger>
+                <DialogContent className="sm:max-w-[425px]">
+                  <DialogHeader>
+                    <DialogTitle>{project.titleKey}</DialogTitle>
+                    <DialogDescription>
+                      {project.descriptionKey}
+                    </DialogDescription>
+                  </DialogHeader>
+                </DialogContent>
+              </Dialog>
+            )}
         </CardHeader>
         <CardContent className="flex-grow">
           <h4 className="font-semibold mb-2">{techStackText}</h4>
