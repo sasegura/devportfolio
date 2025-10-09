@@ -14,6 +14,7 @@ import {
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
 import type { Project } from '@/lib/projectsData';
 
 interface ProjectCardProps {
@@ -23,6 +24,8 @@ interface ProjectCardProps {
 }
 
 export function ProjectCard({ project, liveLinkText, techStackText }: ProjectCardProps) {
+  const isLongDescription = project.descriptionKey.length > 150; // Approximate length for 4 lines
+
   return (
     <motion.div
       whileHover={{ y: -8, scale: 1.02 }}
@@ -41,7 +44,20 @@ export function ProjectCard({ project, liveLinkText, techStackText }: ProjectCar
         </div>
         <CardHeader>
           <CardTitle>{project.titleKey}</CardTitle>
-          <CardDescription>{project.descriptionKey}</CardDescription>
+            <TooltipProvider>
+              <Tooltip delayDuration={300}>
+                <TooltipTrigger asChild>
+                  <CardDescription className="line-clamp-4 cursor-default">
+                    {project.descriptionKey}
+                  </CardDescription>
+                </TooltipTrigger>
+                {isLongDescription && (
+                  <TooltipContent className="max-w-xs sm:max-w-sm md:max-w-md">
+                    <p>{project.descriptionKey}</p>
+                  </TooltipContent>
+                )}
+              </Tooltip>
+            </TooltipProvider>
         </CardHeader>
         <CardContent className="flex-grow">
           <h4 className="font-semibold mb-2">{techStackText}</h4>
