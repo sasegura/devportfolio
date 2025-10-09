@@ -38,7 +38,7 @@ export default async function AboutPage({ params: { lang } }: { params: { lang: 
             <div className="md:flex">
               <div className="md:w-1/3">
                 <Image
-                  src="https://picsum.photos/seed/dev-portrait/800/800"
+                  src="/profile.jpg"
                   alt="Developer Portrait"
                   width={800}
                   height={800}
