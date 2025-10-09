@@ -87,9 +87,9 @@
     "intro": "Estos son algunos de los proyectos en los que he trabajado. Cada uno representa un desafío único y una oportunidad de aprendizaje.",
     "techStack": "Tecnologías:",
     "liveLink": "Ver en Vivo",
-    "project-1": {
-      "title": "Proyecto Alpha",
-      "description": "Un panel de control completo para análisis de datos, con actualizaciones en tiempo real y gráficos interactivos."
+    "project-fintrack": {
+      "title": "FinTrack - Panel de Finanzas Personales",
+      "description": "FinTrack es una aplicación web moderna diseñada para ayudar a los usuarios a realizar un seguimiento exhaustivo de sus finanzas personales. El objetivo principal de la aplicación es permitir la gestión de ingresos y gastos, la visualización de los hábitos de gasto a través de gráficos interactivos, y la revisión de un historial claro de transacciones recientes. Este proyecto representa una solución integral para la gestión financiera personal, enfocándose en una experiencia de usuario fluida y un diseño adaptable."
     },
     "project-2": {
       "title": "Proyecto Beta",

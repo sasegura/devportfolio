@@ -3,8 +3,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export type Project = {
   id: string;
-  titleKey: 'project-1' | 'project-2' | 'project-3' | 'project-4';
-  descriptionKey: 'project-1' | 'project-2' | 'project-3' | 'project-4';
+  titleKey: 'project-fintrack' | 'project-2' | 'project-3' | 'project-4';
+  descriptionKey: 'project-fintrack' | 'project-2' | 'project-3' | 'project-4';
   image: ImagePlaceholder;
   techStack: string[];
   link: string;
@@ -27,10 +27,10 @@ const getImage = (id: string): ImagePlaceholder => {
 export const projectsData: Project[] = [
   {
     id: '1',
-    titleKey: 'project-1',
-    descriptionKey: 'project-1',
-    image: getImage('project-1'),
-    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Recharts'],
+    titleKey: 'project-fintrack',
+    descriptionKey: 'project-fintrack',
+    image: getImage('project-fintrack'),
+    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Recharts', 'React Hook Form', 'Zod', 'Genkit'],
     link: '#',
   },
   {

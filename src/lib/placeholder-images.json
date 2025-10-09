@@ -1,10 +1,10 @@
 {
   "placeholderImages": [
     {
-      "id": "project-1",
-      "description": "Screenshot of a modern web application dashboard.",
-      "imageUrl": "https://picsum.photos/seed/1/1200/800",
-      "imageHint": "web app"
+      "id": "project-fintrack",
+      "description": "Screenshot of the FinTrack application dashboard.",
+      "imageUrl": "/fintrack.png",
+      "imageHint": "finance dashboard"
     },
     {
       "id": "project-2",
