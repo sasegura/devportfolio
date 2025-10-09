@@ -1,40 +1,28 @@
 {
   "placeholderImages": [
     {
-      "id": "project-fintrack",
+      "id": "project-fintrack1",
       "description": "Screenshot of the FinTrack application dashboard.",
       "imageUrl": "/fintrack.png",
       "imageHint": "finance dashboard"
     },
     {
-      "id": "project-globalroamer",
+      "id": "project-globalroamer1",
       "description": "Screenshot of the GlobalRoamer application.",
       "imageUrl": "/globalroamer.png",
       "imageHint": "AI travel"
     },
     {
-      "id": "project-taskzen",
+      "id": "project-taskzen1",
       "description": "Screenshot of the TaskZen application dashboard.",
       "imageUrl": "/taskzen.png",
       "imageHint": "kanban board"
     },
     {
-      "id": "project-chatterbox",
+      "id": "project-chatterbox1",
       "description": "Screenshot of the Chatterbox real-time chat application.",
       "imageUrl": "/chatterbox.png",
       "imageHint": "chat application"
-    },
-    {
-      "id": "project-3",
-      "description": "Data visualization chart from an analytics platform.",
-      "imageUrl": "https://picsum.photos/seed/3/1200/800",
-      "imageHint": "data visualization"
-    },
-    {
-      "id": "project-4",
-      "description": "E-commerce website product page.",
-      "imageUrl": "https://picsum.photos/seed/4/1200/800",
-      "imageHint": "e-commerce"
     }
   ]
 }
