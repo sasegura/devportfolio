@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "Screenshot of a modern web application dashboard.",
+      "imageUrl": "https://picsum.photos/seed/1/1200/800",
+      "imageHint": "web app"
+    },
+    {
+      "id": "project-2",
+      "description": "Mobile application interface showing a user profile screen.",
+      "imageUrl": "https://picsum.photos/seed/2/1200/800",
+      "imageHint": "mobile app"
+    },
+    {
+      "id": "project-3",
+      "description": "Data visualization chart from an analytics platform.",
+      "imageUrl": "https://picsum.photos/seed/3/1200/800",
+      "imageHint": "data visualization"
+    },
+    {
+      "id": "project-4",
+      "description": "E-commerce website product page.",
+      "imageUrl": "https://picsum.photos/seed/4/1200/800",
+      "imageHint": "e-commerce"
+    }
+  ]
 }

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "DevPortfolio | Your Name - Software Developer",
+    "description": "A personal portfolio showcasing projects and skills in web development.",
+    "keywords": "portfolio, software developer, next.js, react, web development"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "homepage": {
+    "greeting": "Hello, I'm",
+    "name": "Your Name",
+    "role": "Software Developer",
+    "intro": "I build modern, responsive, and engaging web experiences. Let's create something amazing together.",
+    "cta": "View My Work"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "I am a passionate software developer with a knack for creating elegant solutions in the least amount of time. With a background in computer science and several years of hands-on experience, I have honed my skills in front-end and back-end development, specializing in the React ecosystem and modern web technologies. I thrive in collaborative environments and am always eager to learn and take on new challenges.",
+    "skillsTitle": "My Skills",
+    "experienceTitle": "Work Experience",
+    "experience": [
+      {
+        "role": "Senior Frontend Developer",
+        "company": "Tech Solutions Inc.",
+        "period": "2020 - Present",
+        "description": "Led the development of a new client-facing dashboard using Next.js, resulting in a 30% increase in user engagement. Mentored junior developers and established code quality standards."
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Web Innovators",
+        "period": "2018 - 2020",
+        "description": "Developed and maintained features for a large-scale e-commerce platform using React and Redux. Collaborated with designers and product managers to deliver high-quality user experiences."
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "intro": "Here are some of the projects I've worked on. Each one represents a unique challenge and a learning opportunity.",
+    "techStack": "Tech Stack:",
+    "liveLink": "View Live",
+    "project-1": {
+      "title": "Project Alpha",
+      "description": "A comprehensive dashboard for data analysis, featuring real-time updates and interactive charts."
+    },
+    "project-2": {
+      "title": "Project Beta",
+      "description": "A mobile-first social networking app designed to connect like-minded individuals."
+    },
+    "project-3": {
+      "title": "Project Gamma",
+      "description": "An advanced data visualization tool that turns complex datasets into understandable insights."
+    },
+    "project-4": {
+      "title": "Project Delta",
+      "description": "A sleek and modern e-commerce platform with a focus on user experience and performance."
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "intro": "Have a project in mind or just want to say hello? My inbox is always open. I'll get back to you as soon as possible.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your Name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Your message here...",
+      "submit": "Send Message",
+      "success": "Message sent successfully! I'll be in touch soon.",
+      "error": "An error occurred. Please try again later."
+    },
+    "validation": {
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email address",
+      "messageRequired": "Message is required",
+      "messageMin": "Message must be at least 10 characters"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Oops! The page you are looking for does not exist. It might have been moved or deleted.",
+    "backToHome": "Go back to Home"
+  },
+  "footer": {
+    "copy": "All rights reserved."
+  }
+}

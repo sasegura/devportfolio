@@ -1,7 +1,8 @@
-import type {NextConfig} from 'next';
+import { i18n } from './src/i18n-config.js';
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -29,6 +30,10 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
     ],
+  },
+  i18n: {
+    locales: i18n.locales,
+    defaultLocale: i18n.defaultLocale,
   },
 };
 

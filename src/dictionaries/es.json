@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "title": "DevPortfolio | Tu Nombre - Desarrollador de Software",
+    "description": "Un portafolio personal que muestra proyectos y habilidades en desarrollo web.",
+    "keywords": "portafolio, desarrollador de software, next.js, react, desarrollo web"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "homepage": {
+    "greeting": "Hola, soy",
+    "name": "Tu Nombre",
+    "role": "Desarrollador de Software",
+    "intro": "Construyo experiencias web modernas, responsivas y atractivas. Creemos algo increíble juntos.",
+    "cta": "Ver Mi Trabajo"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "bio": "Soy un apasionado desarrollador de software con un don para crear soluciones elegantes en el menor tiempo posible. Con formación en informática y varios años de experiencia práctica, he perfeccionado mis habilidades en desarrollo front-end y back-end, especializándome en el ecosistema de React y tecnologías web modernas. Me desenvuelvo en entornos colaborativos y siempre estoy ansioso por aprender y asumir nuevos desafíos.",
+    "skillsTitle": "Mis Habilidades",
+    "experienceTitle": "Experiencia Laboral",
+    "experience": [
+      {
+        "role": "Desarrollador Frontend Senior",
+        "company": "Tech Solutions Inc.",
+        "period": "2020 - Presente",
+        "description": "Lideré el desarrollo de un nuevo panel de control para clientes usando Next.js, lo que resultó en un aumento del 30% en la participación del usuario. Fui mentor de desarrolladores junior y establecí estándares de calidad de código."
+      },
+      {
+        "role": "Ingeniero de Software",
+        "company": "Web Innovators",
+        "period": "2018 - 2020",
+        "description": "Desarrollé y mantuve funcionalidades para una plataforma de comercio electrónico a gran escala utilizando React y Redux. Colaboré con diseñadores y gerentes de producto para ofrecer experiencias de usuario de alta calidad."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "intro": "Estos son algunos de los proyectos en los que he trabajado. Cada uno representa un desafío único y una oportunidad de aprendizaje.",
+    "techStack": "Tecnologías:",
+    "liveLink": "Ver en Vivo",
+    "project-1": {
+      "title": "Proyecto Alpha",
+      "description": "Un panel de control completo para análisis de datos, con actualizaciones en tiempo real y gráficos interactivos."
+    },
+    "project-2": {
+      "title": "Proyecto Beta",
+      "description": "Una aplicación de red social 'mobile-first' diseñada para conectar a personas con ideas afines."
+    },
+    "project-3": {
+      "title": "Proyecto Gamma",
+      "description": "Una herramienta avanzada de visualización de datos que convierte conjuntos de datos complejos en información comprensible."
+    },
+    "project-4": {
+      "title": "Proyecto Delta",
+      "description": "Una plataforma de comercio electrónico elegante y moderna con un enfoque en la experiencia del usuario y el rendimiento."
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "intro": "¿Tienes un proyecto en mente o solo quieres saludar? Mi bandeja de entrada siempre está abierta. Te responderé lo antes posible.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Tu mensaje aquí...",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje enviado con éxito! Me pondré en contacto pronto.",
+      "error": "Ocurrió un error. Por favor, inténtalo de nuevo más tarde."
+    },
+    "validation": {
+      "nameRequired": "El nombre es obligatorio",
+      "emailRequired": "El correo es obligatorio",
+      "emailInvalid": "Dirección de correo inválida",
+      "messageRequired": "El mensaje es obligatorio",
+      "messageMin": "El mensaje debe tener al menos 10 caracteres"
+    }
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "message": "¡Vaya! La página que buscas no existe. Es posible que se haya movido o eliminado.",
+    "backToHome": "Volver al Inicio"
+  },
+  "footer": {
+    "copy": "Todos los derechos reservados."
+  }
+}
