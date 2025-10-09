@@ -19,7 +19,7 @@ export async function Footer({ lang }: { lang: Locale }) {
           <Link href="#" target="_blank" rel="noreferrer">
             <GithubIcon className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground" />
           </Link>
-          <Link href="#" target="_blank" rel="noreferrer">
+          <Link href="https://www.linkedin.com/in/sergio-segura-fernandez87/" target="_blank" rel="noreferrer">
             <LinkedinIcon className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground" />
           </Link>
         </div>

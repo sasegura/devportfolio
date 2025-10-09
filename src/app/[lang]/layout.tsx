@@ -22,8 +22,8 @@ export async function generateMetadata({
     title: title,
     description: description,
     keywords: keywords,
-    authors: [{ name: 'Your Name' }],
-    creator: 'Your Name',
+    authors: [{ name: 'Sergio Antonio Segura Fernández' }],
+    creator: 'Sergio Antonio Segura Fernández',
     metadataBase: new URL(baseUrl),
     openGraph: {
       title: title,
@@ -62,13 +62,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Person',
-              name: 'Your Name',
+              name: 'Sergio Antonio Segura Fernández',
               url: process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000',
               sameAs: [
                 'https://github.com/yourhandle',
-                'https://linkedin.com/in/yourhandle',
+                'https://www.linkedin.com/in/sergio-segura-fernandez87/',
               ],
-              jobTitle: 'Software Developer',
+              jobTitle: 'Frontend Developer',
             }),
           }}
         />
