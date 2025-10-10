@@ -1,6 +1,6 @@
 'use client';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
@@ -42,12 +42,10 @@ export function ProjectCard({ project, liveLinkText, techStackText, viewMoreText
     >
       <Card className="h-full overflow-hidden flex flex-col">
         <div className="relative h-56 w-full">
-          <Image
+          <img
             src={project.image.imageUrl}
             alt={project.image.description}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="w-full h-full object-cover"
             data-ai-hint={project.image.imageHint}
           />
         </div>

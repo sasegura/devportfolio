@@ -1,25 +1,25 @@
 {
   "placeholderImages": [
     {
-      "id": "project-fintrack1",
+      "id": "project-fintrack",
       "description": "Screenshot of the FinTrack application dashboard.",
       "imageUrl": "/fintrack.png",
       "imageHint": "finance dashboard"
     },
     {
-      "id": "project-globalroamer1",
+      "id": "project-globalroamer",
       "description": "Screenshot of the GlobalRoamer application.",
       "imageUrl": "/globalroamer.png",
       "imageHint": "AI travel"
     },
     {
-      "id": "project-taskzen1",
+      "id": "project-taskzen",
       "description": "Screenshot of the TaskZen application dashboard.",
       "imageUrl": "/taskzen.png",
       "imageHint": "kanban board"
     },
     {
-      "id": "project-chatterbox1",
+      "id": "project-chatterbox",
       "description": "Screenshot of the Chatterbox real-time chat application.",
       "imageUrl": "/chatterbox.png",
       "imageHint": "chat application"

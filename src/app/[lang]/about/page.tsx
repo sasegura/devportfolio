@@ -4,7 +4,20 @@ import type { Locale } from '@/i18n-config';
 import { PageTransition } from '@/components/PageTransition';
 import { Timeline } from '@/components/Timeline';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import Image from 'next/image';
+// import Image from 'next/image';
+
+// Helper function to get the correct image path
+const getImagePath = (imageUrl: string): string => {
+  // Check if we're building for export (GitHub Pages)
+  const isExport = process.env.EXPORT === 'true';
+  
+  if (isExport) {
+    return `/devportfolio${imageUrl}`;
+  }
+  
+  // For development, return the original path
+  return imageUrl;
+};
 
 const skills = [
   { name: 'JavaScript', icon: <Code className="h-8 w-8 text-accent" /> },
@@ -38,14 +51,11 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: Lo
           <Card className="overflow-hidden">
             <div className="md:flex">
               <div className="md:w-1/3 flex items-center justify-center bg-muted/30">
-                <Image
-                  src="/profile.jpg"
+                <img
+                  src={getImagePath("/profile.jpg")}
                   alt="Developer Portrait"
-                  width={800}
-                  height={800}
-                  className="h-auto w-full object-contain"
+                  className="h-auto w-full object-contain max-w-full"
                   data-ai-hint="developer portrait"
-                  priority
                 />
               </div>
               <div className="md:w-2/3 p-8 flex flex-col justify-center">
