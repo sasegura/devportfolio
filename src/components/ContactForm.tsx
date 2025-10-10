@@ -66,18 +66,30 @@ export function ContactForm({ dictionary }: { dictionary: Dictionary }) {
   function onSubmit(values: z.infer<typeof formSchema>) {
     startTransition(async () => {
       try {
-        // For static export, we'll simulate form submission
-        // In a real deployment, you could integrate with a service like Formspree, Netlify Forms, or similar
-        console.log('Contact form submission:', values);
-        
-        // Simulate API call delay
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        
-        toast({
-          title: "Success!",
-          description: dictionary.form.success,
+        // Using Formspree for form submission
+        const formspreeEndpoint = process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT || 'https://formspree.io/f/xpwgkqkp';
+        const response = await fetch(formspreeEndpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: values.name,
+            email: values.email,
+            message: values.message,
+            _subject: `New message from ${values.name} - Portfolio Contact Form`,
+          }),
         });
-        form.reset();
+
+        if (response.ok) {
+          toast({
+            title: "Success!",
+            description: dictionary.form.success,
+          });
+          form.reset();
+        } else {
+          throw new Error('Form submission failed');
+        }
       } catch (error) {
         console.error('Form submission error:', error);
         toast({
