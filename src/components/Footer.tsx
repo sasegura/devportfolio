@@ -16,7 +16,7 @@ export async function Footer({ lang }: { lang: Locale }) {
           </p>
         </div>
         <div className="flex items-center space-x-4">
-          <Link href="#" target="_blank" rel="noreferrer">
+          <Link href="https://github.com/sasegura" target="_blank" rel="noreferrer">
             <GithubIcon className="h-6 w-6 text-muted-foreground transition-colors hover:text-foreground" />
           </Link>
           <Link href="https://www.linkedin.com/in/sergio-segura-fernandez87/" target="_blank" rel="noreferrer">
