@@ -23,6 +23,12 @@
       "description": "Screenshot of the Chatterbox real-time chat application.",
       "imageUrl": "/chatterbox.png",
       "imageHint": "chat application"
+    },
+    {
+      "id": "project-boutique-shop",
+      "description": "Screenshot of the Boutique Shop application.",
+      "imageUrl": "/boutique-shop.png",
+      "imageHint": "boutique shop"
     }
   ]
 }

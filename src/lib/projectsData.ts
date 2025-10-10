@@ -3,8 +3,8 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export type Project = {
   id: string;
-  titleKey: 'project-fintrack' | 'project-globalroamer' | 'project-taskzen' | 'project-chatterbox' | 'project-3' | 'project-4';
-  descriptionKey: 'project-fintrack' | 'project-globalroamer' | 'project-taskzen' | 'project-chatterbox' | 'project-3' | 'project-4';
+  titleKey: 'project-fintrack' | 'project-globalroamer' | 'project-taskzen' | 'project-chatterbox' | 'project-boutique-shop' | 'project-4';
+  descriptionKey: 'project-fintrack' | 'project-globalroamer' | 'project-taskzen' | 'project-chatterbox' | 'project-boutique-shop' | 'project-4';
   image: ImagePlaceholder;
   techStack: string[];
   link: string;
@@ -57,4 +57,12 @@ export const projectsData: Project[] = [
     techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'ShadCN UI', 'Genkit', 'Firebase'],
     link: 'https://github.com/sasegura/chatterbox',
   },  
+  {
+    id: '7',
+    titleKey: 'project-boutique-shop',
+    descriptionKey: 'project-boutique-shop',
+    image: getImage('project-boutique-shop'),
+    techStack: ['Next.js', 'TypeScript', 'Tailwind CSS', 'ShadCN UI', 'Genkit', 'Firebase'],
+    link: 'https://github.com/sasegura/boutique-shop',
+  }, 
 ];
