@@ -12,7 +12,7 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
 
   return (
     <PageTransition>
-      <div className="container mx-auto max-w-2xl py-12 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-2xl py-12 px-4 sm:px-6 lg:px-8 h-[calc(100vh-8.2rem)]">
         <Card>
           <CardHeader className="text-center">
             <div className="mx-auto bg-primary text-primary-foreground rounded-full p-3 w-fit mb-4">

@@ -55,6 +55,7 @@ export default async function RootLayout({
   params: Promise<{ lang: Locale }>;
 }) {
   const { lang } = await params;
+  const dictionary = await getDictionary(lang);
   return (
     <html lang={lang} className={inter.variable}>
       <head>
@@ -76,7 +77,7 @@ export default async function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-background font-body text-foreground antialiased">
-        <Header lang={lang} />
+        <Header lang={lang} dictionary={dictionary} />
         <main className="flex-1">{children}</main>
         <Footer lang={lang} />
         <Toaster />

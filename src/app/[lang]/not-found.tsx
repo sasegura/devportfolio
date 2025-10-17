@@ -12,7 +12,7 @@ export default async function NotFound() {
   const { notFound } = dictionary;
 
   return (
-    <div className="flex min-h-[calc(100vh-8rem)] flex-col items-center justify-center text-center">
+    <div className="flex min-h-[calc(100vh-8.2rem)] flex-col items-center justify-center text-center">
       <AlertTriangle className="h-16 w-16 text-destructive" />
       <h1 className="mt-4 text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
         {notFound.title}
